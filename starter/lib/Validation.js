@@ -15,7 +15,7 @@ function isNotEmpty(input) {
 // Function to validate if input ID is a non-negative integer
 
 function isID(input) {
-    const number = parseInt(input);
+    const number = parseInt(input)
 
     if (!Number.isInteger(number) || number < 0) {
         return false;
@@ -42,7 +42,7 @@ function isIDValid(input, employees) {
     }
 
     if (!isIDUnique(input, employees)) {
-        return "ID has to be unique!";
+        return "ID has to be unique!"
     }
     return true;
 }
@@ -50,13 +50,13 @@ function isIDValid(input, employees) {
 // Function to validate if input is a non-negative integer (for office number)
 
 function isOfficeNumber(input) {
-    const number = parseInt(input);
+    const number = parseInt(input)
 
     if (number < 0 || !Number.isInteger(number)) {
-        return "Office number has to be a non-negative integer!";
+        return "Office number has to be a non-negative integer!"
     }
 
-    return true;
+    return true
 }
 
 // Function to validate if input is a valid email address
@@ -82,16 +82,16 @@ async function validateGitHubUsername(username) {
     if (response?.status === 200) {
       // User exists
 
-        return true;
+        return true
     } else {
 // User does not exist
 
-        return false;
+        return false
     }
     } catch (error) {
     // An error occurred (e.g., user not found or network error)
 
-        return false;
+        return false
     }
 }
 
@@ -103,4 +103,4 @@ export {
     isOfficeNumber,
     validateEmail,
     validateGitHubUsername,
-};
+}
