@@ -1,0 +1,46 @@
+/* Style for jumbotron header */
+.team-heading {
+
+    background-color: #8f141da6; /* light red */
+
+    color: white;
+
+}
+
+/* Style for each employee card */
+.employee-card {
+
+    border: none;
+
+    border-radius: 10px;
+
+    background-color: #3481df; /* primary blue */
+
+    color: white;
+
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7); /* box shadow */
+
+    width: calc(100% / 3 - 30px); /* Adjust width for three cards per row with spacing */
+    
+    margin: 10px; /* Adjust spacing between cards */
+
+}
+
+.employee-card .card-body .list-group-item {
+
+    color: black; /* black text */
+}
+
+.team-area {
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    justify-content: center;
+
+    max-width: 100%; /* Adjust maximum width as needed */
+
+    margin: 0 auto; /* Center the card container */
+    
+}
