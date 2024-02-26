@@ -4,8 +4,6 @@ Team Builder CLI is a command-line interface (CLI) application that helps you bu
 
 ## Table of Contents
 
-- Badges
-
 - Demo
 
 - Features
@@ -14,15 +12,18 @@ Team Builder CLI is a command-line interface (CLI) application that helps you bu
 
 - Usage
 
-- Project Structure
-
-- License
-
 - Contributing
 
 - Tests
 
 - Questions
+
+
+## Demo
+
+![alt text](assets/team-profile-generator.png)
+
+![alt text](assets/team-profile.png)
 
 
 ## Features
