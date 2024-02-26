@@ -21,9 +21,11 @@ Team Builder CLI is a command-line interface (CLI) application that helps you bu
 
 ## Demo
 
-![alt text](assets/team-profile-generator.png)
+![team gen](assets/team-gen.png)
 
-![alt text](assets/team-profile.png)
+![team profile generator](assets/team-profile-generator.png)
+
+![team profile](assets/team-profile.png)
 
 
 ## Features
