@@ -1,5 +1,5 @@
 // TODO: Write code to define and export the Employee class
-const Employee = require("./Employee.js")
+// const Employee = require("./Employee")
 // Define a class called Employee
 
 class Employee {
@@ -36,7 +36,7 @@ class Employee {
 
     getRole() {
          // Return the name of the class ("Employee")
-        return this.constructor.name
+        return this.name
     }
 }
 

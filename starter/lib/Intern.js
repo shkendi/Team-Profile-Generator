@@ -1,7 +1,7 @@
 // TODO: Write code to define and export the Intern class.  HINT: This class should inherit from Employee.
 // Import the Employee class from the "./Employee.js" file
 
-const Employee = require("./Employee.js")
+const Employee = require("./Employee")
 
 // Define a class called Intern that extends the Employee class
 
@@ -21,6 +21,10 @@ class Intern extends Employee {
 
     }
 
+    getRole() {
+        return 'Intern'
+    }
+
     // Method to get the school of the Intern
 
     getSchool() {
@@ -32,4 +36,4 @@ class Intern extends Employee {
 
 // Export the Intern class to make it available for use in other files
 
-module.exports = Intern
+module.exports = Intern;

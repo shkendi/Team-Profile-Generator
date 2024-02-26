@@ -1,174 +1,174 @@
 // Define questions for gathering information about a manager
 
-const managerData = [
-    {
-        type: "input",
-        name: "name",
-        message: "Enter manager's name:",
-        //Validate if the input is not empy
-        validate: Validation.isNotEmpty
-    },
+// const managerData = [
+//     {
+//         type: "input",
+//         name: "name",
+//         message: "Enter manager's name:",
+//         //Validate if the input is not empy
+//         validate: Validation.isNotEmpty
+//     },
 
-    {
-        type: "input",
-        name: "id",
-        message: "Enter manager's id:",
-        //Validate if the id is not a negative integer and it is unique is not empy
-        validate: input =>  Validation.isIDValid(input, employees)
-    },
+//     {
+//         type: "input",
+//         name: "id",
+//         message: "Enter manager's id:",
+//         //Validate if the id is not a negative integer and it is unique is not empy
+//         validate: input =>  Validation.isIDValid(input, employees)
+//     },
 
-    {
-        type: "input",
-        name: "email",
-        message: "Enter manager's email address:",
-        //Validate if the email address is valid
-        validate: Validation.validateEmail
-    },
+//     {
+//         type: "input",
+//         name: "email",
+//         message: "Enter manager's email address:",
+//         //Validate if the email address is valid
+//         validate: Validation.validateEmail
+//     },
 
-    {
-        type: "input",
-        name: "officeNumber",
-        message: "Enter manager's office number:",
-        //Validate if the office number is valid
-        validate: Validation.isOfficeNumber
-    },
-]
+//     {
+//         type: "input",
+//         name: "officeNumber",
+//         message: "Enter manager's office number:",
+//         //Validate if the office number is valid
+//         validate: Validation.isOfficeNumber
+//     },
+// ]
 
-// Define questions for gathering information about an engineer
+// // Define questions for gathering information about an engineer
 
-const engineerData = [
-    {
-        type: "input",
+// const engineerData = [
+//     {
+//         type: "input",
 
-        name: "name",
+//         name: "name",
 
-        message: "Enter engineer's name:",
+//         message: "Enter engineer's name:",
 
-        // Validate if the input is not empty
+//         // Validate if the input is not empty
 
-        validate: Validation.isNotEmpty
-    },
-    {
+//         validate: Validation.isNotEmpty
+//     },
+//     {
 
-        type: "input",
+//         type: "input",
 
-        name: "id",
+//         name: "id",
 
-        message: "Enter engineer's id:",
+//         message: "Enter engineer's id:",
 
-        // Validate if the ID is non-negative integer and is it unique
+//         // Validate if the ID is non-negative integer and is it unique
 
-        validate: input =>  Validation.isIDValid(input, employees) 
+//         validate: input =>  Validation.isIDValid(input, employees) 
 
-    },
-    {
+//     },
+//     {
 
-        type: "input",
+//         type: "input",
 
-        name: "email",
+//         name: "email",
 
-        message: "Enter engineer's email address:",
+//         message: "Enter engineer's email address:",
 
-        // Validate if the email address is valid
+//         // Validate if the email address is valid
 
-        validate: Validation.validateEmail
+//         validate: Validation.validateEmail
 
-    }
+//     }
 
-]
+// ]
 
-//question about GitHub username - separation of questions necessary 
+// //question about GitHub username - separation of questions necessary 
 
-//to avoid race condition when making api request
+// //to avoid race condition when making api request
 
-const GitHubData = [
+// const GitHubData = [
 
-    {
+//     {
 
-        type: "input",
+//         type: "input",
 
-        name: "github",
+//         name: "github",
 
-        message: "Enter engineer's GitHub username:",
+//         message: "Enter engineer's GitHub username:",
 
-    }                      
-]
+//     }                      
+// ]
 
-// Define questions for gathering data about an intern
+// // Define questions for gathering data about an intern
 
-const internData = [
+// const internData = [
 
-    {
+//     {
 
-        type: "input",
+//         type: "input",
 
-        name: "name",
+//         name: "name",
 
-        message: "Enter intern's name:",
+//         message: "Enter intern's name:",
 
-        // Validate if the input is not empty
+//         // Validate if the input is not empty
 
-        validate: Validation.isNotEmpty
+//         validate: Validation.isNotEmpty
 
-    },
-    {
+//     },
+//     {
 
-        type: "input",
+//         type: "input",
 
-        name: "id",
+//         name: "id",
 
-        message: "Enter intern's id:",
+//         message: "Enter intern's id:",
 
-        // Validate if the ID is non-negative integer and is it unique
+//         // Validate if the ID is non-negative integer and is it unique
 
-        validate: input =>  Validation.isIDValid(input, employees) 
+//         validate: input =>  Validation.isIDValid(input, employees) 
 
-    },
-    {
+//     },
+//     {
 
-        type: "input",
+//         type: "input",
 
-        name: "email",
+//         name: "email",
 
-        message: "Enter intern's email address:",
+//         message: "Enter intern's email address:",
 
-        // Validate if the email address is valid
+//         // Validate if the email address is valid
 
-        validate: Validation.validateEmail
+//         validate: Validation.validateEmail
 
-    },
-    {
+//     },
+//     {
 
-        type: "input",
+//         type: "input",
 
-        name: "school",
+//         name: "school",
 
-        message: "Enter intern's school:",
+//         message: "Enter intern's school:",
 
-        // Validate if the input is not empty
+//         // Validate if the input is not empty
 
-        validate: Validation.isNotEmpty
+//         validate: Validation.isNotEmpty
 
-    }
-]
+//     }
+// ]
 
-// Define a question for the menu selection
+// // Define a question for the menu selection
 
-const menuData = [
+// const menuData = [
 
-    {
+//     {
 
-    type: "list",
+//     type: "list",
 
-    name: "menu",
+//     name: "menu",
 
-    message: "Choose one of the options:",
+//     message: "Choose one of the options:",
 
-    choices: ["Add an engineer", "Add an intern", "Finish building the team"]
+//     choices: ["Add an engineer", "Add an intern", "Finish building the team"]
 
-    }
-]
+//     }
+// ]
 
-// Export all data arrays for use in other files
-export {managerData, engineerData, GitHubData,
-    internData, menuData};
+// // Export all data arrays for use in other files
+// export {managerData, engineerData, GitHubData,
+//     internData, menuData};

@@ -1,6 +1,6 @@
 // TODO: Write code to define and export the Manager class. HINT: This class should inherit from Employee.
 
-// Import the Employee class from the "./Employee.cjs" file
+// Import the Employee class from the "./Employee.js" file
 
 const Employee = require("./Employee.js")
 
