@@ -1,4 +1,5 @@
 # Team Profile Generator
+
 ## Description
 Team Builder CLI is a command-line interface (CLI) application that helps you build a development team by gathering information about team members and generating an HTML file to display their information.
 
