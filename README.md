@@ -1,5 +1,8 @@
 # Team Profile Generator
 
+Link for the html generated: http://127.0.0.1:5500/team.html
+ 
+
 ## Description
 Team Builder CLI is a command-line interface (CLI) application that helps you build a development team by gathering information about team members and generating an HTML file to display their information.
 
